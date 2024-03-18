@@ -3,7 +3,7 @@
 # Start-Process -FilePath $tempFile -Wait
 
 # URL do arquivo .exe a ser baixado
-$url = "https://github.com/piratedsoftware/program1/blob/main/hello.exe"
+$url = "https://raw.githubusercontent.com/piratedsoftware/program1/main/hello.exe"
 
 # Local onde o arquivo será salvo temporariamente
 $tempFile = "$env:TEMP\hello.exe"
